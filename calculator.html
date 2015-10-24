@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+	
+	<head><title>calculator</title></head>
+
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<body>
+		
+		<div id="container" style="width:10.5%;" align="center" >
+			<p>
+				<div>
+					&nbsp;<input type="text" class="" id="display" name="" disabled="disabled">
+				</div>
+			</p>
+			
+			<p>
+				<div >
+					
+					<div style="float:left;">
+						<font size="2%"><i>This is Calculator</i></font>
+					</div>
+					<div style="float:right;">
+						<input type="button" class="" id="bttn2" name="" value="C" onclick="addToScreen('c')">
+					</div>
+
+				</div>
+			</p>
+
+			<div>
+				&nbsp;
+			</div>
+
+			<p>
+				<div style="clear:both;" class="all">
+
+					<input type="button" class="" id="bttn" name="" value="7" onclick="addToScreen('7')">
+					<input type="button" class="" id="bttn" name="" value="8" onclick="addToScreen('8')">
+					<input type="button" class="" id="bttn" name="" value="9" onclick="addToScreen('9')">
+
+					<input type="button" class="" id="bttn" name="" value="÷" onclick="addToScreen('/')">
+					
+
+				</div>
+			</p>
+			
+			<p>
+				<div>
+					<input type="button" class="" id="bttn" name="" value="4" onclick="addToScreen('4')">
+					<input type="button" class="" id="bttn" name="" value="5" onclick="addToScreen('5')">
+					<input type="button" class="" id="bttn" name="" value="6" onclick="addToScreen('6')">
+
+					<input type="button" class="" id="bttn" name="" value="×" onclick="addToScreen('*')">
+				</div>
+			</p>
+
+			<p>
+				<div>
+
+					<input type="button" class="" id="bttn" name="" value="1" onclick="addToScreen('1')">
+					<input type="button" class="" id="bttn" name="" value="2" onclick="addToScreen('2')">
+					<input type="button" class="" id="bttn" name="" value="3" onclick="addToScreen('3')">
+
+					<input type="button" class="" id="bttn" name="" value="+" onclick="addToScreen('+')">
+
+				</div>
+			</p>
+
+			<p>
+				<div>
+					<input type="button" class="" id="bttn" name="" value="0" onclick="addToScreen('0')">
+					<input type="button" class="" id="bttn" name="" value="." onclick="addToScreen('.')">
+					<input type="button" class="" id="bttn" name="" value="=" onclick="answer()">
+
+					<input type="button" class="" id="bttn" name="" value="-" onclick="addToScreen('-')">
+				</div>
+			</p>
+
+		</div>
+
+		<script src="calc.js"></script>			
+
+	</body>
+
+</html>

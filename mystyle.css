@@ -1,0 +1,39 @@
+#bttn{
+
+	width: 20% ;
+	height: 20% ;
+	text-align: center;
+	color: black;
+	background-color: deep;
+
+}
+
+#bttn2{
+
+	width: 100% ;
+	height: 20% ;
+	color: #ffffff;
+	background-color: #FF8C00;
+	border-style: solid;
+    border-color: #000000 #000000;
+
+}
+
+#container{
+
+	border-radius: 25px;
+	border-style: solid;
+    border-color: #000000 #000000;
+    background: #E0FFFF  ;
+    padding: 15px; 
+    margin: auto;
+
+}
+
+#display{
+
+	border-color: #000000 #000000;
+	width: 80%;
+
+}
+
